@@ -1,0 +1,4 @@
+Lambda:  0.001
+    Alpha:  0.01 Precisión train:  0.9691692834713103 Precisión test:  0.908818493150685
+Lambda:  0.01
+    Alpha:  0.01 Precisión train:  0.9293462746217528 Precisión test:  0.886986301369863

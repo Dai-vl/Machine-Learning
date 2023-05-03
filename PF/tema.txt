@@ -1,0 +1,18 @@
+Grupo 5: Jorge Ortega y Daniela Vidal
+
+El dataset que hemos elegido para realizar la práctica es el de https://www.kaggle.com/datasets/kyr7plus/emg-4. Se trata de un dataset de Kaggle que contiene datos de la actividad muscular de 4 gestos diferentes:
+- Piedra (puño)
+- Papel (extensión de la mano)
+- Tijeras (dedos índice y corazón extendidos)
+- Okay (dedo índice tocando el pulgar y el resto de dedos extendidos).
+
+Los datos se han recogido con señales EMG (electromiografía). 
+Cada línea del dataset consiste en 40ms en las que se hacen 8 medidas consecutivas de 8 sensores, es decir, 64 columnas en total de esta manera:
+
+                                    [8 sensores][8 sensores][8 sensores][8 sensores][8 sensores][8 sensores][8 sensores][8 sensores][Gesto]
+
+La columna 'Gesto' clasifica piedra - 0, tijeras - 1, papel - 2, okay - 3.
+
+Se trata de 4 datasets de alrededor de 2900 filas cada uno con la actividad de cada gesto.
+
+El objetivo es clasificarlos, según los datos de la actividad muscular, en un gesto u otro.
